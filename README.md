@@ -84,6 +84,8 @@ R --> U[Input Validation]
 
 D --> V[Cloud Infrastructure Future]
 
+---
+
 ## 🚀 PHASE 2: INTELLIGENCE & COMMUNICATION LAYER (IN DEVELOPMENT PLAN)
 
 This phase introduces intelligence, automation, and communication systems.
