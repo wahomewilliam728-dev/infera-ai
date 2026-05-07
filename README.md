@@ -138,3 +138,71 @@ Infera AI originated as **SmartLab**, which has evolved into a more structured a
 🚧 Phase 1 is actively under development  
 🧠 Phase 2 is in design and planning stage  
 🌍 Phase 3 represents long-term vision and scalin
+## 🏗️ System Architecture
+
+graph TD
+
+%% =======================
+%% USER LAYER
+%% =======================
+A[Users / Doctors / Admins / Hospitals] --> B[Frontend Interface]
+
+%% =======================
+%% FRONTEND
+%% =======================
+B --> C[Web Dashboard UI<br>HTML / CSS / JS]
+
+%% =======================
+%% BACKEND LAYER
+%% =======================
+C --> D[PHP Backend API Layer]
+
+%% Authentication & Security
+D --> E[Authentication System<br>Login / Register / Sessions]
+D --> F[Role-Based Access Control<br>Admin / User / Staff]
+
+%% Core System Logic
+D --> G[Core Application Logic]
+D --> H[Admin Dashboard System]
+
+%% =======================
+%% DATABASE LAYER
+%% =======================
+G --> I[(MySQL Database)]
+H --> I
+E --> I
+
+%% =======================
+%% AI LAYER (FUTURE)
+%% =======================
+D --> J[AI Processing Layer<br>Python / ML Models]
+J --> K[Medical Data Analysis]
+J --> L[Predictive Healthcare Models]
+J --> M[Clinical Decision Support]
+
+%% =======================
+%% COMMUNICATION LAYER (PLANNED)
+%% =======================
+D --> N[Notification System]
+N --> O[SMS Gateway]
+N --> P[Email Service]
+
+%% =======================
+%% EXTERNAL INTEGRATIONS
+%% =======================
+D --> Q[External Healthcare Systems<br>Hospitals / Clinics APIs]
+
+%% =======================
+%% SECURITY LAYER
+%% =======================
+D --> R[Security Layer]
+R --> S[Encryption]
+R --> T[Audit Logging]
+R --> U[Input Validation]
+
+%% =======================
+%% CLOUD / DEPLOYMENT
+%% =======================
+D --> V[Cloud Infrastructure<br>Future Deployment]
+J --> V
+I --> V
