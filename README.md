@@ -50,42 +50,6 @@ To build a secure, stable, and scalable foundation for future AI integration.
 
 ---
 
-# 🏗️ SYSTEM ARCHITECTURE
-
-```mermaid
-graph TD
-
-A[Users / Doctors / Admins / Hospitals] --> B[Frontend Interface]
-B --> C[Web Dashboard UI HTML/CSS/JS]
-C --> D[PHP Backend API Layer]
-
-D --> E[Authentication System Login/Register/Sessions]
-D --> F[Role-Based Access Control Admin/User/Staff]
-D --> G[Core Application Logic]
-D --> H[Admin Dashboard System]
-
-G --> I[(MySQL Database)]
-H --> I
-E --> I
-
-D --> J[AI Processing Layer Python/ML Models]
-J --> K[Medical Data Analysis]
-J --> L[Predictive Healthcare Models]
-J --> M[Clinical Decision Support]
-
-D --> N[Communication System]
-N --> O[SMS Gateway]
-N --> P[Email Service]
-
-D --> R[Security Layer]
-R --> S[Encryption]
-R --> T[Audit Logging]
-R --> U[Input Validation]
-
-D --> V[Cloud Infrastructure Future]
-
----
-
 ## 🚀 PHASE 2: INTELLIGENCE & COMMUNICATION LAYER (IN DEVELOPMENT PLAN)
 
 This phase introduces intelligence, automation, and communication systems.
@@ -135,6 +99,52 @@ This phase focuses on real-world adoption and scaling.
 
 ---
 
+# 🏗️ SYSTEM ARCHITECTURE
+
+```mermaid
+graph TD
+
+A[Users / Doctors / Admins / Hospitals] --> B[Frontend Interface]
+
+B --> C[Web Dashboard UI HTML/CSS/JS]
+
+C --> D[PHP Backend API Layer]
+
+D --> E[Authentication System Login/Register/Sessions]
+D --> F[Role-Based Access Control Admin/User/Staff]
+D --> G[Core Application Logic]
+D --> H[Admin Dashboard System]
+
+G --> I[(MySQL Database)]
+H --> I
+E --> I
+
+D --> J[AI Processing Layer Python/ML Models]
+
+J --> K[Medical Data Analysis]
+J --> L[Predictive Healthcare Models]
+J --> M[Clinical Decision Support]
+
+D --> N[Communication System]
+
+N --> O[SMS Gateway]
+N --> P[Email Service]
+
+D --> Q[External Healthcare Systems APIs]
+
+D --> R[Security Layer]
+
+R --> S[Encryption]
+R --> T[Audit Logging]
+R --> U[Input Validation]
+
+D --> V[Cloud Infrastructure Future]
+J --> V
+I --> V
+```
+
+---
+
 # ⚙️ TECH STACK
 
 - Frontend: HTML, CSS, JavaScript  
@@ -159,13 +169,13 @@ Infera AI is designed with strong emphasis on:
 
 # ⚠️ IMPORTANT NOTE
 
-Infera AI is a **decision-support system**, not a replacement for medical professionals.
+Infera AI is a decision-support system and not a replacement for medical professionals.
 
 ---
 
 # 📌 PROJECT ORIGIN
 
-Infera AI originated as **SmartLab**, which has evolved into a more structured and scalable healthcare AI system focused on real-world healthcare challenges.
+Infera AI originated as **SmartLab**, which evolved into a more structured and scalable healthcare AI platform focused on solving real-world healthcare challenges.
 
 ---
 
@@ -173,4 +183,28 @@ Infera AI originated as **SmartLab**, which has evolved into a more structured a
 
 🚧 Phase 1 is actively under development  
 🧠 Phase 2 is in design and planning stage  
-🌍 Phase 3 represents long-term vision and scaling
+🌍 Phase 3 represents long-term vision and scaling strategy  
+
+---
+
+# 🌟 LONG-TERM GOALS
+
+- Build AI-powered healthcare intelligence systems  
+- Support hospitals and clinics with scalable technology  
+- Improve healthcare efficiency through AI-assisted workflows  
+- Develop secure and compliant healthcare infrastructure  
+- Expand healthcare innovation across Africa and beyond  
+
+---
+
+# 📬 CONTACT
+
+William Wahome  
+Email: wahomewilliam728@gmail.com  
+LinkedIn: https://www.linkedin.com/in/william-wahome-207676280
+
+---
+
+# ⚡ STATUS
+
+🚧 Under Active Development
