@@ -50,6 +50,40 @@ To build a secure, stable, and scalable foundation for future AI integration.
 
 ---
 
+# 🏗️ SYSTEM ARCHITECTURE
+
+```mermaid
+graph TD
+
+A[Users / Doctors / Admins / Hospitals] --> B[Frontend Interface]
+B --> C[Web Dashboard UI HTML/CSS/JS]
+C --> D[PHP Backend API Layer]
+
+D --> E[Authentication System Login/Register/Sessions]
+D --> F[Role-Based Access Control Admin/User/Staff]
+D --> G[Core Application Logic]
+D --> H[Admin Dashboard System]
+
+G --> I[(MySQL Database)]
+H --> I
+E --> I
+
+D --> J[AI Processing Layer Python/ML Models]
+J --> K[Medical Data Analysis]
+J --> L[Predictive Healthcare Models]
+J --> M[Clinical Decision Support]
+
+D --> N[Communication System]
+N --> O[SMS Gateway]
+N --> P[Email Service]
+
+D --> R[Security Layer]
+R --> S[Encryption]
+R --> T[Audit Logging]
+R --> U[Input Validation]
+
+D --> V[Cloud Infrastructure Future]
+
 ## 🚀 PHASE 2: INTELLIGENCE & COMMUNICATION LAYER (IN DEVELOPMENT PLAN)
 
 This phase introduces intelligence, automation, and communication systems.
